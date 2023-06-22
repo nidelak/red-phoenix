@@ -1,0 +1,26 @@
+state = {
+	id = 790
+	name = "STATE_790"
+
+	history = {
+		owner = FRG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6488 20
+		}
+		add_core_of = FRG
+	}
+
+	provinces = {
+		589 3574 6444 6488 9486
+	}
+	local_supplies=0.0 
+ manpower = 1504003
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

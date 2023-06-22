@@ -1,15 +1,14 @@
+state = {
+	id = 362
+	name = "STATE_362"
 
-state={
-	id=362
-	name="STATE_362"
-
-	history={
+	history = {
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 6
-			industrial_complex = 2
+			infrastructure = 6
+			industrial_complex = 1
 			dockyard = 4
-			air_base = 6
+			air_base = 10
 			fuel_silo = 1
 			788 = {
 				naval_base = 10
@@ -19,14 +18,17 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			788 10 
+			788 10
 		}
 		victory_points = {
-			10412 15 
+			3823 20
+		}
+		victory_points = {
+			1506 1
 		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 2
+				industrial_complex = 3
 				dockyard = 5
 
 			}
@@ -35,12 +37,10 @@ state={
 
 	}
 
-	provinces={
-		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+	provinces = {
+		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873
 	}
-
-	local_supplies=11.0
-	manpower=2249080
-	buildings_max_level_factor=1.000
-	state_category=large_city_region
+	manpower = 2310052
+	buildings_max_level_factor = 1.000
+	state_category = large_city
 }

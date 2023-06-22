@@ -1,34 +1,44 @@
-
-state={
-	id=619
-	name="STATE_619" # Yarkand
-	manpower = 1430700
-	
-	state_category = pastoral
-	
-	resources={
-		aluminium=2 # was: 2
-		chromium=2 # was: 3
+state = {
+	id = 619
+	name = "STATE_619"
+	resources = {
+		aluminium = 2.000
+		chromium = 2.000
 	}
 
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_claim_by = TWN
-		
+	history = {
+		owner = QIN
+		add_core_of = SIK add_core_of = ETR
+		add_core_of = QIN
+		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
+
 		}
-		victory_points = {
-			2015 2
+		1919.7.1 = { owner = SIK controller = SIK }
+		1933.1.1 = {
+			owner = SIK
+			controller = SIK
 		}
+
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+		}
+
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+
 	}
 
-
-	provinces={
-		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 
+	provinces = {
+		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 13290
 	}
-
-	local_supplies=0.0 
+	manpower = 1430700
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

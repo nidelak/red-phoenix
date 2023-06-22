@@ -1,18 +1,17 @@
-
-state={
-	id=553
-	name="STATE_553"
+state = {
+	id = 553
+	name = "STATE_553"
 	manpower = 1104000
-	
-	state_category = town_region
 
-	history={
-		owner = LEB
+	state_category = town
+
+	history = {
+		owner = OTT
 		victory_points = {
-			792 5 
+			792 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 			air_base = 5
 			792 = {
@@ -21,11 +20,25 @@ state={
 		}
 
 		add_core_of = LEB
+		add_core_of = OTT
+		1910.1.1 = {
+			owner = OTT
+			controller = OTT
+		}
+		1918.11.11 = {
+			owner = FRA
+			controller = FRA
+		}
+
+		1941.1.1 = { owner = VIF controller = VIF add_claim_by = FRA }
+		1943.1.1 = { owner = FRA controller = FRA remove_claim_by = FRA }
+		1946.1.1 = {
+			owner = LEB
+			controller = LEB
+		}
 	}
 
-	provinces={
-		792 1108 11919 
+	provinces = {
+		792 1108 11919
 	}
-
-	local_supplies=0.0 
 }

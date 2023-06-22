@@ -1,18 +1,19 @@
-state=
+state =
 {
-	id=164
-	name="STATE_164"
+	id = 164
+	name = "STATE_164"
 	manpower = 120000
-	
+
 	state_category = small_island
-	
-	history = {
-		owner = GRE
+
+	history =
+	{
+		owner = OTT
 		victory_points = {
-			10007 1 
+			10007 1
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			air_base = 1
 			10007 = {
 				naval_base = 4
@@ -21,12 +22,33 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = GRE
-	}
+		add_core_of = GRE add_core_of = GRC  add_core_of = OTT
+		1910.1.1 = {
+			owner = OTT
+			controller = OTT
+		}
+		1912.11.11 = {
+			owner = ITA
+			controller = ITA
+		}
 
-	provinces = {
-		7003 10007
-	}
+		1944.1.1 = {
+			owner = GER
+			controller = GER
+		}
 
-	local_supplies=0.0 
+		1946.1.1 = {
+			owner = ITA
+			controller = ITA
+		}
+
+		1947.1.1 = {
+			owner = GRE
+			controller = GRE
+		}
+	}
+	provinces =
+	{
+		7003 10007 }
+		local_supplies=0.0 
 }

@@ -1,15 +1,14 @@
-
-state={
-	id=481
-	name="STATE_481" # Durango
+state = {
+	id = 481
+	name = "STATE_481" # Durango
 	manpower = 1255094
-	
-	state_category = rural_region
-	
-	history={
+
+	state_category = rural
+
+	history = {
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			dockyard = 1
 			8057 = {
 				naval_base = 3
@@ -27,10 +26,8 @@ state={
 		#}
 	}
 
-	provinces={
-		1945 4946 7921 8003 8057 10853 10871 10895 12804 
+	provinces = {
+		1945 4946 7921 8003 8057 10853 10871 10895 12804
 	}
-	
 
-	local_supplies=6.0 
 }

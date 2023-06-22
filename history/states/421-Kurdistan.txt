@@ -1,29 +1,27 @@
-
-state={
-	id=421
-	name="STATE_421"
+state = {
+	id = 421
+	name = "STATE_421"
 	manpower = 780278
-	
-	state_category = rural_region
 
-	history={
+	state_category = rural
+
+	history = {
 		owner = PER
 		victory_points = {
-			4943 5
+			12773 1
 		}
-		victory_points = {
-			5098 3
-		}
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
-		add_core_of = PER
+		add_core_of = PER add_core_of = SPE
 		add_core_of = KUR
+
+		1942.1.1 = { owner = ENG controller = ENG }
+		1949.1.1 = { owner = PER controller = PER }
 	}
 
-	provinces={
-		829 4943 5050 5098 9816 10774 12773 
+	provinces = {
+		829 4943 5050 5098 9816 10774 12773 13304
 	}
-
-	local_supplies=0.0 
 }

@@ -2,24 +2,36 @@
 state={
 	id=349
 	name="STATE_349"
-	manpower = 592821
-	
-	state_category = rural_region
 
 	history={
-		owner = TUR
+		owner = OTT
 		victory_points = {
-			9777 3 
+			9777 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
+
 		}
 		add_core_of = TUR
+		add_core_of = OTT
+		1910.1.1 = {
+			owner = OTT
+			controller = OTT
+
+		}
+		1919.1.1 = {
+			owner = TUR
+			controller = TUR
+
+		}
+
 	}
 
 	provinces={
-		3890 3903 3950 6919 6950 6965 9761 9777 
+		3950 6888 6919 6965 6977 9761 9777 9868 
 	}
-
-	local_supplies=0.0 
+	manpower=372721
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

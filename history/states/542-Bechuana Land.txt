@@ -1,17 +1,16 @@
-
-state={
-	id=542
-	name="STATE_542"
+state = {
+	id = 542
+	name = "STATE_542"
 	manpower = 234000
-	
+
 	state_category = wasteland
-	
-	resources={
-		chromium=90 # was: 168
+
+	resources = {
+		chromium = 90 # was: 168
 	}
 
-	history={
-		owner = BOT
+	history = {
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 		}
@@ -20,11 +19,11 @@ state={
 			8214 1
 		}
 
+		1966.1.1 = { owner = BOT controller = BOT }
+
 	}
 
-	provinces={
-		1580 8214 10525 12940 12963 
+	provinces = {
+		1580 8214 10525 12940 12963
 	}
-
-	local_supplies=2.0 
 }

@@ -1,34 +1,56 @@
-state={
-	id=716
-	name="STATE_716"
-	resources={
-		steel=27.000
+state = {
+	id = 716
+	name = "STATE_716"
+	resources = {
+		steel = 27.000
 	}
 
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_claim_by = TWN
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		add_core_of = MAN
+		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		add_core_of = FEN
+
+		1900.1.1 = {
+			set_state_flag = JAP_influence
+
+		}
+		1905.1.1 = { owner = JAP controller = JAP }
+		1906.1.1 = { owner = QIN controller = QIN }
+		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1919.7.1 = { owner = FEN controller = FEN }
+		1933.1.1 = {
+			owner = MAN
+			controller = MAN
+		}
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 5
 			964 = {
 				naval_base = 3
+
 			}
+
 		}
 		victory_points = {
-			11771 3 
+			11771 15
 		}
+
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC
+		}
+
 	}
 
-	provinces={
-		836 846 892 964 987 3783 3839 3849 3895 3970 6804 6860 6910 6918 6951 6981 9781 9788 9835 9854 9885 11764 11771 11808 11815 
+	provinces = {
+		836 892 964 987 3783 3849 3895 6918 9781 9854 9885 11764 11771 11808
 	}
-	manpower=10264620
-	buildings_max_level_factor=1.000
-	state_category=city_region
-
-	local_supplies=0.0 
+	manpower = 4842610
+	buildings_max_level_factor = 1.000
+	state_category = city
 }

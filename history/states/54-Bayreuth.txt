@@ -1,32 +1,28 @@
+state = {
+	id = 54
+	name = "STATE_54"
 
-state={
-	id=54
-	name="STATE_54"
-	manpower = 2508159
-
-	state_category = city_region
-
-	history={
+	history = {
 		owner = FRG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			11544 10 
+			11544 10
+		}
+		victory_points = {
+			11417 5
 		}
 		add_core_of = FRG
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
 	}
 
-	provinces={
-		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
+	provinces = {
+		561 3474 6421 6540 6594 9416 9557 9572 11404 11417 11529 11544 13116
 	}
-
+	manpower = 2508159
+	buildings_max_level_factor = 1.000
+	state_category = city
 	local_supplies=0.0 
 }

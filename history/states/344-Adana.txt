@@ -2,39 +2,46 @@
 state={
 	id=344
 	name="STATE_344"
-	manpower = 1081781
-	
-	state_category = town_region
 
 	history={
-		owner = TUR
+		owner = OTT
 		victory_points = {
-			9893 15
+			11746 1 
 		}
 		victory_points = {
-			7620 10
-		}
-		victory_points = {
-			6813 3
-		}
-		victory_points = {
-			11746 5 
+			886 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 1
 			11746 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = TUR
-		add_claim_by = KUR
+		add_core_of = OTT
+		1910.1.1 = {
+			owner = OTT
+			controller = OTT
+
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+
+		}
+		1919.7.1 = {
+			owner = FRA
+			controller = FRA
+		}
 	}
 
 	provinces={
-		806 3889 6813 7620 9893 9912 11746 
+		806 886 3921 6956 11746 
 	}
-
-
-	local_supplies=0.0 
+	manpower=225154
+	buildings_max_level_factor=1.000
+	state_category=town
 }

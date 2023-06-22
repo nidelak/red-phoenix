@@ -1,0 +1,30 @@
+state = {
+	id = 794
+	name = "STATE_794"
+
+	history = {
+		owner = DRG
+		victory_points = {
+			3499 10
+		}
+		victory_points = {
+			11415 3
+		}
+		buildings = {
+			infrastructure = 8
+			air_base = 10
+			arms_factory = 7
+			industrial_complex = 3
+
+		}
+		add_core_of = DRG
+	}
+
+	provinces = {
+		375 478 3367 3499 6441 9428 9456 9496 11219 11415 11444 11505
+	}
+	local_supplies=0.0 
+ manpower = 3030016
+	buildings_max_level_factor = 1.000
+	state_category = megalopolis
+}

@@ -1,9 +1,9 @@
-state={
-	id=738
-	name="STATE_738"
+state = {
+	id = 738
+	name = "STATE_738"
 
-	history={
-		owner = INS
+	history = {
+		owner = HOL
 		add_core_of = INS
 		buildings = {
 			infrastructure = 1
@@ -16,14 +16,16 @@ state={
 
 		}
 
+		1910.1.1 = { owner = INS controller = INS }
+		1942.1.1 = { owner = JAP controller = JAP }
+		1946.1.1 = { owner = INS controller = INS }
+
 	}
 
-	provinces={
-		4579 
+	provinces = {
+		4579
 	}
-	manpower=36146
-	buildings_max_level_factor=1	
-	state_category="small_island"
-
-	local_supplies=0.0 
+	manpower = 36146
+	buildings_max_level_factor = 1
+	state_category = "small_island"
 }

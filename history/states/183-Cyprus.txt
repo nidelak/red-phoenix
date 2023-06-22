@@ -1,33 +1,38 @@
-state= {
-	id=183
-	name="STATE_183"
-	manpower = 347959
-	
-	state_category = rural_region
-	resources={
-		chromium=3 # was: 4
+state = {
+	id = 183
+	name = "STATE_183"
+	resources = {
+		chromium = 3.000
 	}
 
-	history=
-	{
-		owner = CYP
+	history = {
+		owner = ENG
 		add_core_of = CYP
-		victory_points = {
-			11984 5
-		}
 		victory_points = {
 			7193 3
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
 			7193 = {
 				naval_base = 2
+
 			}
+
+		}
+
+		1961.1.1 = {
+			owner = CYP
+			controller = CYP
 		}
 
 	}
-	provinces= { 7193 11984 }
 
+	provinces = {
+		7193
+	}
+	manpower = 193757
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 	local_supplies=0.0 
 }

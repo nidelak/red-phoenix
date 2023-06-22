@@ -1,18 +1,22 @@
-state={
-	id=752
-	name="STATE_752"
-	provinces={
+state = {
+	id = 752
+	name = "STATE_752"
+	provinces = {
 		1918 7988 8104 12724 12837 4999
 	}
-	manpower=300000
-	buildings_max_level_factor=1.000
+	manpower = 300000
+	buildings_max_level_factor = 1.000
 	state_category = pastoral
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_claim_by = TWN
-		add_core_of = TIB
-		
+	history = {
+		owner = QIN
+
+		add_core_of = QIN
+		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		add_core_of = YUN
+
+		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1919.7.1 = { owner = TIB controller = TIB }
+		1933.1.1 = { owner = CHI controller = CHI }
 		victory_points = {
 			4999 1
 		}
@@ -20,7 +24,16 @@ state={
 			infrastructure = 1
 
 		}
-	}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
 
-	local_supplies=1.0 
+			}
+
+		}
+
+		1950.1.1 = { owner = PRC controller = PRC }
+
+	}
 }

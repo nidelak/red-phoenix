@@ -1,0 +1,26 @@
+state = {
+	id = 795
+	name = "STATE_795"
+
+	history = {
+		owner = DRG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			3535 5
+		}
+		add_core_of = DRG
+	}
+
+	provinces = {
+		3535 6559 9441 9471 11481 11545
+	}
+	local_supplies=0.0 
+ manpower = 2101023
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

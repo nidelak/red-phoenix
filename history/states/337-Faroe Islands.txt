@@ -1,23 +1,32 @@
-state=
+state =
 {
-	id=337
-	name="STATE_337"
+	id = 337
+	name = "STATE_337"
 	manpower = 25900
-	
-	state_category = small_island
-	
-	history=
+
+	state_category = enclave
+
+	history =
 	{
 		owner = DEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			13003 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = DEN
-	}
-	provinces= { 13003 }
 
-	local_supplies=0.0 
+		1940.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+
+		1946.1.1 = {
+			owner = DEN
+			controller = DEN
+		}
+
+	}
+	provinces = { 13003 }
 }

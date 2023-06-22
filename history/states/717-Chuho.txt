@@ -1,25 +1,45 @@
-state={
-	id=717
-	name="STATE_717"
-	
-	state_category = pastoral
+state = {
+	id = 717
+	name = "STATE_717"
 
-	history={
-		owner = CHI
-		add_core_of = CHI
-		add_claim_by = TWN
+	history = {
+		owner = QIN
+		add_core_of = QIN
+		add_core_of = MAN
+		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		add_core_of = FEN
+
+		1900.1.1 = {
+			set_state_flag = RUE_influence
+
+		}
+
+		1905.1.1 = { owner = RUE controller = RUE }
+		1906.1.1 = { owner = QIN controller = QIN }
+
+		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1919.7.1 = { owner = FEN controller = FEN }
+		1933.1.1 = {
+			owner = MAN
+			controller = MAN
+		}
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
+		}
+
+		1946.1.1 = {
+			owner = PRC
+			controller = PRC
 		}
 
 	}
 
-	provinces={
-		783 810 944 973 1571 3791 3815 3843 3944 4551 5427 6806 6811 6863 6964 7569 7670 9623 9766 9798 9897 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500 
+	provinces = {
+		1571 3791 3815 4551 6811 6863 7569 7670 9623 9798 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500 13256
 	}
-	manpower=5224174
-	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	manpower = 5224174
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

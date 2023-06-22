@@ -1,29 +1,45 @@
-
-state={
-	id=68
-	name="STATE_68"
-	manpower = 1250840
-	resources={
-		aluminium=15 # was: 24
+state = {
+	id = 68
+	name = "STATE_68"
+	resources = {
+		aluminium = 15.000
 	}
 
-	state_category = city_region
-
-	history={
+	history = {
 		victory_points = {
 			3473 1
 		}
-		owner = POL
+		owner = GER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
+
 		}
-		add_core_of = POL
+		add_core_of = GER
+		add_core_of = PRS
+		1910.1.1 = {
+			owner = GER
+			controller = GER
+		}
+		1918.11.11 = {
+			owner = GER
+			controller = GER
+		}
+
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+		}
+
+		1946.1.1 = { owner = POL controller = POL add_core_of = POL remove_core_of = GER }
+
 	}
 
-	provinces={
-		444 537 3473 3572 6236 9387 11478 
+	provinces = {
+		444 537 3473 6236 9387 11478
 	}
-
+	manpower = 1250840
+	buildings_max_level_factor = 1.000
+	state_category = city
 	local_supplies=0.0 
 }

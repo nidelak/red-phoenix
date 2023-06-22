@@ -1,12 +1,9 @@
-state={
-	id=10
-	name="STATE_10"
-	manpower = 3089000
+state = {
+	id = 10
+	name = "STATE_10"
 
-	state_category = large_city_region
-
-	history={
-		owner = POL
+	history = {
+		owner = RUE
 		victory_points = {
 			3544 25
 		}
@@ -14,18 +11,31 @@ state={
 			402 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 7
 			arms_factory = 6
 			industrial_complex = 2
 			anti_air_building = 2
 			air_base = 5
+
 		}
-		add_core_of = POL
+		add_core_of = POL  add_core_of = RUE add_core_of = WHR  1918.11.11 = { owner = POL controller = POL }
+
+		1940.1.1 = { owner = GER controller = GER }
+
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+		}
+
+		1946.1.1 = { owner = POL controller = POL }
+
 	}
 
-	provinces={
-		402 467 524 3482 3544 6511 9400 11492 12562 
+	provinces = {
+		467 524 3482 3544 6511 9400 11492 12562
 	}
-
-	local_supplies=7.0 
+	manpower = 3089000
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+	local_supplies=7.0
 }

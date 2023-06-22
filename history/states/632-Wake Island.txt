@@ -1,27 +1,26 @@
-
-state={
-	id=632
-	name="STATE_632"
-	manpower=150
+state = {
+	id = 632
+	name = "STATE_632"
+	manpower = 150
 	state_category = tiny_island
 
-	history={
+	history = {
 		owner = USA
-		add_core_of = GUM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			13047 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			13047 1 
+			13047 1
 		}
 
-	}
-	provinces={
-		13047 
-	}
+		1942.1.1 = { owner = JAP controller = JAP }
+		1946.1.1 = { owner = USA controller = USA }
 
-	local_supplies=0.0 
+	}
+	provinces = {
+		13047
+	}
 }

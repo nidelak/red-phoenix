@@ -1,13 +1,12 @@
-state=
+state =
 {
-	id=630
-	name="STATE_630"
-	manpower = 100
+	id = 630
+	name = "STATE_630"
+	manpower = 1
 	state_category = tiny_island
 
-	history={
+	history = {
 		owner = USA
-		add_core_of = HAW
 		buildings = {
 			infrastructure = 1
 			13051 = {
@@ -15,10 +14,8 @@ state=
 			}
 		}
 	}
-	
-	provinces={
-		13051 	
-	}
 
-	local_supplies=0.0 
+	provinces = {
+		13051
+	}
 }

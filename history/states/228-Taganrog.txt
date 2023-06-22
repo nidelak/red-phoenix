@@ -1,36 +1,71 @@
-
-state={
-	id=228
-	name="STATE_228" # Voroshilovgrad
+state = {
+	id = 228
+	name = "STATE_228" # Voroshilovgrad
 	manpower = 2167411
-	
-	state_category = town_region
 
-	history={
-		owner = UKR
+	state_category = town
+
+	history = {
+		owner = RUE
+		victory_points = {
+			9461 1
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
-			arms_factory = 1
+			infrastructure = 5
 		}
-		victory_points = {
-			9461 15
-		}
-		victory_points = {
-			6519 5
-		}
-		victory_points = {
-			13261 3
-		}
-		victory_points = {
-			6505 5
-		}
+		add_core_of = RUE add_core_of = WHR
+		add_core_of = SOV
 		add_core_of = UKR
+
+		1918.11.11 = { owner = UKR controller = UKR } 1923.1.1 = { owner = SOV controller = SOV }
+		1919.1.1 = {
+			owner = SOV controller = SOV
+		}
+		1935.1.1 = {
+			set_state_name = RON_VOROSHILOVGRAD
+
+			set_province_name = {
+				id = 9461
+				name = RON_VOROSHILOVGRAD
+			}
+
+		}
+
+		1958.1.1 = {
+			set_state_name = RON_LUHANSK
+
+			set_province_name = {
+				id = 9461
+				name = RON_LUHANSK
+			}
+
+		}
+
+		1970.1.1 = {
+			set_state_name = RON_VOROSHILOVGRAD
+
+			set_province_name = {
+				id = 9461
+				name = RON_VOROSHILOVGRAD
+			}
+
+		}
+
+		1990.1.1 = {
+			set_state_name = RON_LUHANSK
+
+			set_province_name = {
+				id = 9461
+				name = RON_LUHANSK
+			}
+
+		}
+		1992.1.1 = { owner = UKR controller = UKR }
 	}
 
-	provinces={
-		523 547 570 6505 6519 6576 9446 9461 9476 11487 11513 13261
+	provinces = {
+		523 547 570 6505 6519 9446 9461 9476 11487 11513
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

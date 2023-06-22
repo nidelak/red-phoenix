@@ -1,29 +1,29 @@
-state={
-	id=700
-	name="STATE_700"
+state = {
+	id = 700
+	name = "STATE_700"
 	manpower = 1768500
-	
+
 	state_category = pastoral
-	
-	history=
+
+	history =
 	{
-		owner = SIE
+		owner = ENG
 		add_core_of = SIE
 		victory_points = {
-			2038 1 
+			2038 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			2038 = {
 				naval_base = 3
 			}
 		}
 
-	}
-	
-	provinces={
-		2038 2094 
+		1961.1.1 = { owner = SIE controller = SIE }
+
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		2038 2094
+	}
 }

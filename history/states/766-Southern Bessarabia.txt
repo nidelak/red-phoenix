@@ -1,31 +1,48 @@
+state =
+{
+	id = 766
+	name = "STATE_766"
+	manpower = 566600
 
-state={
-	id=766
-	name="STATE_766"
+	state_category = rural
 
-	history={
+	history = {
 		victory_points = {
-			6727 1 
+			6727 1
 		}
+		add_core_of = MOL
 		add_core_of = UKR
-		owner = UKR
+		owner = RUE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			dockyard = 1
 			6727 = {
 				naval_base = 3
-
 			}
-
+		}
+		add_core_of = ROM
+		add_core_of = RUE add_core_of = WHR
+		1910.1.1 = {
+			owner = RUE
+			controller = RUE
+		}
+		1918.11.11 = {
+			owner = ROM
+			controller = ROM
 		}
 
-	}
+		1941.1.1 = {
+			owner = SOV
+			controller = SOV
+		}
 
-	provinces={
-		3701 3704 6727 6743 
+		1942.1.1 = { owner = ROM controller = ROM }
+
+		1945.1.1 = { owner = SOV controller = SOV add_core_of = SOV }
+		1992.1.1 = { owner = UKR controller = UKR }
 	}
-	manpower=566600
-	buildings_max_level_factor=1.000
-	state_category=rural_region
-	local_supplies=0.000
+	provinces =
+	{
+		3701 3704 6727 6743 }
+		local_supplies=0.0 
 }

@@ -1,19 +1,18 @@
-
-state={
-	id=477
-	name="STATE_477"
+state = {
+	id = 477
+	name = "STATE_477"
 	manpower = 1951460
-	
-	state_category = town_region
-	
-	resources={
-		oil=9
+
+	state_category = town
+
+	resources = {
+		oil = 9
 	}
 
-	history={
+	history = {
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			dockyard = 1
 			12810 = {
 				naval_base = 3
@@ -28,10 +27,8 @@ state={
 		}
 	}
 
-	provinces={
-		8079 8089 10732 12810 
+	provinces = {
+		8079 8089 10732 12810
 	}
-	
 
-	local_supplies=0.0 
 }

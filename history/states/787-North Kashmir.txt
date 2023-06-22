@@ -1,26 +1,31 @@
-state={
-	id=787
-	name="STATE_787" # Northern Kashmir
-	manpower = 1415800
-	
-	state_category = rural_region
+state = {
+	id = 787
+	name = "STATE_787"
 
-	history={
+	history = {
 		victory_points = {
 			1910 1
 		}
-		owner = PAK
+		owner = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+
 		}
 		add_core_of = PAK
 		add_core_of = RAJ
 
+		1947.1.1 = {
+			owner = PAK
+			controller = PAK
+		}
+
 	}
 
-	provinces={
-		1910 2041 2084 10821 
+	provinces = {
+		2041 2084 10821 13289
 	}
-
+	manpower = 1415800
+	buildings_max_level_factor = 1.000
+	state_category = rural
 	local_supplies=0.0 
 }

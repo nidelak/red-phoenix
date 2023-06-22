@@ -1,21 +1,23 @@
-state=
+state =
 {
-	id=625
-	name="STATE_625"
+	id = 625
+	name = "STATE_625"
 	manpower = 1138724
-	
-	state_category = rural_region
-	history=
+
+	state_category = rural
+	history =
 	{
-		owner = PHI
+		owner = USA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 		}
 		add_core_of = PHI
-	}
-	provinces={
-		1224 1311 1340 4269 4373 
-	}
 
-	local_supplies=0.0 
+		1935.1.1 = { owner = PHI controller = PHI }
+		1942.1.1 = { owner = JAP controller = JAP }
+		1946.1.1 = { owner = PHI controller = PHI }
+	}
+	provinces = {
+		1224 1311 1340 4269 4373
+	}
 }

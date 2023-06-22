@@ -1,12 +1,12 @@
-state={
-	id=727
-	name="STATE_727"
-	manpower=5367
+state = {
+	id = 727
+	name = "STATE_727"
+	manpower = 5367
 	state_category = small_island
 
-	history={
+	history = {
 		owner = USA
-		add_core_of = HAW
+		add_core_of = KIR
 		buildings = {
 			infrastructure = 1
 			13048 = {
@@ -19,11 +19,11 @@ state={
 				naval_base = 1
 			}
 		}
-	}
-	
-	provinces={
-		13048 13049 13053 
+
+		1980.1.1 = { owner = KIR controller = KIR }
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		13048 13049 13053
+	}
 }

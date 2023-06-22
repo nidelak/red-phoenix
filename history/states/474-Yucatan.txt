@@ -1,15 +1,14 @@
-
-state={
-	id=474
-	name="STATE_474"
+state = {
+	id = 474
+	name = "STATE_474"
 	manpower = 440289
-	
-	state_category = rural_region
 
-	history={
+	state_category = rural
+
+	history = {
 		owner = MEX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			4904 = {
 				naval_base = 2
@@ -30,10 +29,8 @@ state={
 		#}
 	}
 
-	provinces={
-		4904 4965 12715 
+	provinces = {
+		4904 4965 12715
 	}
-	
 
-	local_supplies=0.0 
 }

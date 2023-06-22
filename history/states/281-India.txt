@@ -1,16 +1,15 @@
+state = {
+	id = 281
+	name = "STATE_281"
+	manpower = 79300
 
-state={
-	id=281
-	name="STATE_281"
-	manpower=79300
-	
 	state_category = enclave
 
-	history={
-		owner = MLD
+	history = {
+		owner = ENG
 		add_core_of = MLD
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			4967 = {
 				naval_base = 1
 			}
@@ -18,11 +17,16 @@ state={
 		victory_points = {
 			4967 1
 		}
+
+		1966.1.1 = {
+			owner = MLD
+			controller = MLD
+		}
 	}
 
-	provinces={
-		4967 
+	provinces = {
+		4967
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

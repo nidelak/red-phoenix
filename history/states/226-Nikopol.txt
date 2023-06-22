@@ -1,34 +1,42 @@
-
-state={
-	id=226
-	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
-	
-	state_category = town_region
-	
-	resources={
-		oil=4 # was: 6
+state = {
+	id = 226
+	name = "STATE_226"
+	resources = {
+		oil = 4.000
 	}
 
-	history={
-		owner = UKR
+	history = {
+		owner = RUE
 		victory_points = {
-			11437 10 
+			11437 10
 		}
 		victory_points = {
 			11561 1
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			industrial_complex = 2
 			air_base = 2
+
 		}
+		add_core_of = RUE add_core_of = WHR
+		add_core_of = SOV
 		add_core_of = UKR
+
+		1918.11.11 = { owner = UKR controller = UKR } 1923.1.1 = { owner = SOV controller = SOV }
+		1919.1.1 = { owner = SOV controller = SOV }
+		1942.1.1 = { owner = GER controller = GER }
+		1944.1.1 = { owner = SOV controller = SOV }
+		1992.1.1 = { owner = UKR controller = UKR }
+
 	}
 
-	provinces={
-		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
+	provinces = {
+		6423 9419 9433 11422 11437 11561
 	}
+	manpower = 2391047
+	buildings_max_level_factor = 1.000
+	state_category = town
 
-	local_supplies=0.0 
+	local_supplies=0.0	
 }

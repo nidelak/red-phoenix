@@ -1,12 +1,11 @@
+state = {
+	id = 519
+	name = "STATE_519"
 
-state={
-	id=519
-	name="STATE_519"
-
-	history={
-		owner = AST
+	history = {
+		owner = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			12910 = {
 				naval_base = 2
 
@@ -14,18 +13,18 @@ state={
 
 		}
 		victory_points = {
-			12910 15 
+			12910 5
 		}
 		add_core_of = AST
 
+		1910.1.1 = { owner = AST controller = AST }
+
 	}
 
-	provinces={
-		1773 2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927 12910 12918 12924 13169 13170 
+	provinces = {
+		1773 2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927 12910 12918 12924
 	}
-	manpower=200800
-	buildings_max_level_factor=1.000
-	state_category=rural_region
-
-	local_supplies=0.0 
+	manpower = 350200
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 }

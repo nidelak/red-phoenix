@@ -1,26 +1,35 @@
+state = {
+	id = 193
+	name = "STATE_193"
 
-state={
-	id=193
-	name="STATE_193" # Chernihiv
-	manpower = 1373637
-	
-	state_category = city_region
-
-	history={
+	history = {
 		victory_points = {
 			3568 3
 		}
-		owner = UKR
+		owner = RUE
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			air_base = 8
+
 		}
+		add_core_of = RUE add_core_of = WHR
+		add_core_of = SOV
 		add_core_of = UKR
+
+		1918.11.11 = { owner = UKR controller = UKR }
+		1919.1.1 = { owner = SOV controller = SOV }
+		1923.1.1 = { owner = SOV controller = SOV }
+		1942.1.1 = { owner = GER controller = GER }
+		1944.1.1 = { owner = SOV controller = SOV }
+		1992.1.1 = { owner = UKR controller = UKR }
+
 	}
 
-	provinces={
-		238 546 3480 3542 3568 3584 6458 6508 6532 6589 9437 9506 11425 11489 
+	provinces = {
+		238 489 546 3542 3568 6589 9506
 	}
-
+	manpower = 673416
+	buildings_max_level_factor = 1.000
+	state_category = town
 	local_supplies=0.0 
 }

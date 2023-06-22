@@ -1,27 +1,19 @@
+state = {
+	id = 654
+	name = "STATE_654" # Gorno-Altaysk
+	manpower = 153510
 
-state={
-	id=654
-	name="STATE_654"
+	state_category = wasteland
 
-	history={
-		owner = ALT
+	history = {
+		owner = RUE
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = SOV
-		add_core_of = ALT
-		victory_points = {
-			4800 1 
-		}
-
+		add_core_of = RUE add_core_of = WHR  add_core_of = SOV add_core_of = RUS  1918.11.11 = { owner = WHR controller = WHR } 1923.1.1 = { owner = SOV controller = SOV }  1992.1.1 = { owner = RUS controller = RUS }
 	}
 
-	provinces={
-		4781 4800 10531 10713 12509 
+	provinces = {
+		4781 4800 10531 10713 12509
 	}
-	manpower=153510
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=2.000
 }

@@ -1,22 +1,40 @@
-state={
-	id=662
-	name="STATE_662"
-	manpower = 13213
-	
-	state_category = wasteland
-	
-	
-	history={
-		owner = LBA
+state = {
+	id = 662
+	name = "STATE_662"
+
+	history = {
+		owner = OTT
 		buildings = {
 			infrastructure = 1
+
 		}
-		add_core_of = LBA
-	}
-	
-	provinces={
-		4200 7076 7136 8069 13073 
+		add_core_of = LBA # add_core_of = OTT 
+		1910.1.1 = {
+			owner = OTT
+			controller = OTT
+		}
+		1914.1.1 = {
+			owner = ITA
+			controller = ITA
+		}
+
+		1943.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+
+
+		1951.1.1 = {
+			owner = LBA
+			controller = LBA
+		}
+
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		1041 4047 7136 7194 10046 10117 12866 13073
+	}
+	manpower = 13213
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 }
