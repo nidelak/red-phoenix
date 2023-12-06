@@ -63,11 +63,31 @@ SOV_victor_ermakov={
 	}
 	corps_commander = {
 	    traits={ old_guard }
-		skill = 5
+		skill = 4
 		attack_skill = 3
 		defense_skill = 4
 		planning_skill = 6
 		logistics_skill = 3
+	}
+  }
+
+SOV_mickhail_moiseev={
+	name = mickhail_moiseev
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/moiseev.dds"
+		}
+	}
+	field_marshal = {
+	    traits={ old_guard }
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 5
 	}
   }
 }
