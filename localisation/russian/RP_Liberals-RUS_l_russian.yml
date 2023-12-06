@@ -10,6 +10,9 @@
  KRR:0 "ВСЮР"
  KRR_DEF:0 "Вооружённые Силы Юга России"
  KRR_ADJ:0 "Российск."
+ URL:0 "Уральская Республика"
+ URL_DEF:0 "Уральская Республика"
+ SAL_ADJ:0 "Уральск."
 #Characters
 ARH_genady_burbulis: "Геннадий Бурбулис"
 KRR_gregory_yavlinskiy: "Грегорий Явлинский"

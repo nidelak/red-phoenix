@@ -241,3 +241,82 @@ country_event = {
 		}
 	}
 }
+country_event = {
+    id = rus.5
+    title = rus.5.t
+    desc = rus.5.d
+	fire_only_once = yes
+	picture = GFX_report_event_SOV_leningrad_concert
+    trigger = {
+		tag = SOV
+		has_civil_war_in_russia = yes
+		date > 1994.06.17
+	}
+    option = {
+        name = rus.5.a
+		URL = {
+			set_state_owner = 572
+			set_province_controller = 9292
+			set_province_controller = 7285
+			set_province_controller = 12584
+			set_province_controller = 12287
+			set_province_controller = 1233
+			set_province_controller = 11223
+			set_province_controller = 10329
+			set_province_controller = 12157
+			set_province_controller = 9292
+			set_province_controller = 10213
+			set_province_controller = 1334
+			set_province_controller = 10185
+			set_province_controller = 4265
+			set_province_controller = 7328
+			set_province_controller = 7401
+			set_province_controller = 10256
+			set_province_controller = 4411
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+    }
+	option = {
+		trigger = {
+			is_ai = no
+		}
+        name = rus.5.b
+		URL = {
+			set_state_owner = 572
+			set_province_controller = 9292
+			set_province_controller = 7285
+			set_province_controller = 12584
+			set_province_controller = 12287
+			set_province_controller = 1233
+			set_province_controller = 11223
+			set_province_controller = 10329
+			set_province_controller = 12157
+			set_province_controller = 9292
+			set_province_controller = 10213
+			set_province_controller = 1334
+			set_province_controller = 10185
+			set_province_controller = 4265
+			set_province_controller = 7358
+			set_province_controller = 7401
+			set_province_controller = 10256
+			set_province_controller = 4411
+				declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+		}
+		URL = {
+			change_tag_from = SOV
+		}
+    }
+	immediate = {
+		hidden_effect = {
+			URL = {
+				add_ideas = RCW_russian_civil_war
+			}
+		}
+	}
+}
