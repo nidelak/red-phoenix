@@ -14,19 +14,12 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			6488 20.0 
+			6488 20
 		}
 		victory_points = {
 			564 3
 		}
 		add_core_of = FRG
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-				arms_factory = 4
-			}
-		}
 	}
 
 	provinces={
