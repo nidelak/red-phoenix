@@ -1,0 +1,16 @@
+characters={
+	IRQ_sadam_husein={
+		name=IRQ_sadam_husein
+		portraits={
+			civilian={
+				large = GFX_IRQ_sadam_husein
+			}
+		}
+		country_leader={
+			ideology=personalist_dictatorship
+			traits = {
+				SOV_genadiy_yanaev_desc
+			}
+		}
+	}
+}

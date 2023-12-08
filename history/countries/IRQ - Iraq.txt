@@ -1,5 +1,11 @@
 ﻿capital = 291
 
+recruit_character = IRQ_sadam_husein
+
+#Нац-духи
+
+add_ideas = IRQ_after_the_storm
+
 #oob = "IRQ_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

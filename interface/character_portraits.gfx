@@ -331,4 +331,8 @@ spriteTypes = {
 		name = "GFX_SWE_Carl_Bildt"
 		texturefile = "gfx/leaders/SWE/SWE_Carl_Bildt.dds"
 	}
+	spriteType = {
+		name = "GFX_IRQ_sadam_husein"
+		texturefile = "gfx/leaders/IRQ/IRQ_sadam_husein.dds"
+	}
 }

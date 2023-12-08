@@ -1,0 +1,30 @@
+ideas = {
+    country = {
+		IRQ_after_the_storm = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SOV_still_here
+
+			
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.5
+				army_org_regain = -0.8
+				political_power_factor = -0.15
+				drift_defence_factor = -0.3
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.5
+				despotism_drift = -0.05
+			}
+		}
+	}
+}
