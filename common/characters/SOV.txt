@@ -90,4 +90,84 @@ SOV_mickhail_moiseev={
 		logistics_skill = 5
 	}
   }
+
+SOV_mahmut_gareev={
+	name = mahmut_gareev
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/gareev.dds"
+		}
+	}
+	corps_commander = {
+	    traits={ old_guard }
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 5
+	}
+  }
+
+  SOV_yuriy_yashin={
+	name = mahmut_gareev
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/yashin.dds"
+		}
+	}
+	corps_commander = {
+	    traits={ old_guard }
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 5
+	}
+  }
+
+  SOV_vladimir_lobov={
+	name = vladimir_lobov
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/lobov.dds"
+		}
+	}
+	corps_commander = {
+	    traits={ old_guard }
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 5
+	}
+  }
+
+  SOV_vladimir_arhipov={
+	name = vladimir_arhipov
+	portraits={
+		army={
+			small="/gfx/interface/ideas/"
+		}
+		army={
+			large="/gfx/leaders/SOV/1.dds"
+		}
+	}
+	corps_commander = {
+	    traits={ old_guard }
+		skill = 4
+		attack_skill = 5
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 5
+	}
+  }
 }
