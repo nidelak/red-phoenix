@@ -19,27 +19,7 @@ guiTypes = {
 		}
 	}
 	### MAIN MENU PANEL (upperleft)
-	containerWindowType = {
-		name ="mainmenu_panel_upperleft"
-		position = { x=-10 y =0}
-		size = { width = 1920 height = 100%% }
-		orientation = lower_left
-		origo = lower_left
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_Main_Menu_Side_BG"
-		}
-		iconType = {#-95
-			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x= 50 y = 20 }
-		}
-		iconType = {
-			name ="frontend_game_logo2"
-			spriteType = "GFX_Main_Menu_Update_Logo"
-			position = { x= 68 y = 140 }
-		}		
-	}
+	
 	#containerWindowType = {
 	#	name ="frontend_alpha_stamp"
 	#	position = { x=100 y =-25  }
