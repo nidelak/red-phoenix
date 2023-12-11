@@ -20,21 +20,21 @@ guiTypes = {
 	}
 	### MAIN MENU PANEL (upperleft)
 	
-	#containerWindowType = {
-	#	name ="frontend_alpha_stamp"
-	#	position = { x=100 y =-25  }
-	#	size = { width = 131 height = 132}
-	#	orientation = lower_left
-	#	origo = lower_left
-	#	
-	#	iconType =
-	#	{
-	#		name ="frontend_alpha_stamp"
-	#		spriteType = "GFX_alpha_stamp"
-	#		position = { x= 0 y = 20 }
-	#	}
-	#	
-	#}
+    #containerWindowType = {
+	    #	name ="frontend_alpha_stamp"
+	    #	position = { x=100 y =-25  }
+	    #	size = { width = 131 height = 132}
+	    #	orientation = lower_left
+	    #	origo = lower_left
+	    #	
+	    #	iconType =
+	    #	{
+	    #    #		name ="frontend_alpha_stamp"
+	    #		spriteType = "GFX_alpha_stamp"
+	    #		position = { x= 0 y = 20 }
+		    #}
+	    
+	    #}
 	
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
@@ -55,16 +55,16 @@ guiTypes = {
 		}
 		####
 	
-		#iconType = {#-95
-		#	name ="frontend_game_logo"
-		#	spriteType = "GFX_frontend_game_logo"
-		#	position = { x= 55 y = 20 }
-		#}
-		#iconType = {
-		#	name ="frontend_game_logo2"
-		#	spriteType = "GFX_Main_Menu_Update_Logo"
-		#	position = { x= 130 y = 140 }
-		#}
+		iconType = {#-95
+			name ="frontend_game_logo"
+			spriteType = "GFX_frontend_game_logo"
+			position = { x= 55 y = 20 }
+		}
+		iconType = {
+			name ="frontend_game_logo2"
+			spriteType = "GFX_Main_Menu_Update_Logo"
+			position = { x= 130 y = 140 }
+		}
 	}
 
 	### SINGLE PLAYER MENU
@@ -250,7 +250,15 @@ guiTypes = {
 			spriteType = "GFX_discord_button"
 			clicksound = click_default
 			pdx_tooltip = ""
-			web_link = "https://discord.gg/PT9kcwS"
+			web_link = "https://discord.gg/cBgUS9zZGS"
+		}
+		ButtonType = {
+			name = "discord_button"
+			position = { x = 40 y = 240 }
+			spriteType = "GFX_discord_button"
+			clicksound = click_default
+			pdx_tooltip = ""
+			web_link = "https://discord.gg/cBgUS9zZGS"
 		}
 		ButtonType = {
 			name = "patreon_button"
