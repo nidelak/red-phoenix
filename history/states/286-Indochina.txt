@@ -6,10 +6,10 @@ state={
 	}
 
 	history={
-		add_core_of = VIN
-		owner = VIN
+		add_core_of = VNG
+		owner = VNG
 		victory_points = {
-			4401 3 
+			4401 5
 		}
 		buildings = {
 			infrastructure = 2
