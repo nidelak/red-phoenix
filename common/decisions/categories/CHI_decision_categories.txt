@@ -1,0 +1,13 @@
+DON_operation_in_crimea_category = {
+	icon = generic_mountain_fortification
+	
+	priority = 10
+
+	allowed = {
+		tag = DON
+	}
+
+	visible = {
+		has_completed_focus = DON_operation_in_crimea
+	}
+}

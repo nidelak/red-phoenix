@@ -1,7 +1,7 @@
 ﻿capital = 249 #Kazan
 
 ##oob = "TAT_1936"
-
+add_ideas = TAT_OPG_slovo
 set_research_slots = 3
 
 # Starting tech
