@@ -1,0 +1,47 @@
+division_template = {
+    name = "Пехотная Дивизия"
+    is_locked = no
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 0 y = 3 }
+        infantry = { x = 0 y = 4 }
+    }
+}
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 1328
+        division_template = "Пехотная Дивизия"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.85
+        start_manpower_factor = 0.95
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 4363
+        division_template = "Пехотная Дивизия"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.85
+        start_manpower_factor = 0.95
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+        }
+
+        location = 1300
+        division_template = "Пехотная Дивизия"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.85
+        start_manpower_factor = 0.95
+    }
+}

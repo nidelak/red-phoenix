@@ -1,6 +1,6 @@
 capital = 286 #Hanoi
 
-#oob = "VIN_1936"
+oob = "VNG_units"
 
 set_research_slots = 3
 
