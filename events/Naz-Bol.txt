@@ -5,11 +5,8 @@ country_event = {
     title = naz-bol.1.t
     desc = naz-bol.1.d
 	fire_only_once = yes
+	is_triggered_only = yes
 	picture = GFX_report_event_SOV_leningrad_concert
-    trigger = {
-		tag = SOV
-		date = 1994.06.03
-	}
     option = {
         name = naz-bol.1.a
 		SPB = {
@@ -54,9 +51,17 @@ country_event = {
 		hidden_effect = {
 			SPB = {
 				add_ideas = RCW_russian_civil_war
+				country_event = {
+					id = naz-bol.2
+					days = 7
+				}
 			}
 			SOV = {
 				add_ideas = RCW_russian_civil_war
+				country_event = {
+					id = rus.1
+					days = 20
+				}
 			}
 		}
 	}
@@ -66,15 +71,7 @@ country_event = {
     title = naz-bol.2.t
     desc = naz-bol.2.d
 	fire_only_once = yes
-	trigger = {
-		tag = SPB
-		SPB = {
-			controls_state = 195
-		}
-	}
-	mean_time_to_happen = {
-		days = 7
-	}
+	is_triggered_only = yes
     option = {
         name = naz-bol.2.a
 		random_list = {
@@ -133,6 +130,10 @@ country_event = {
 		hidden_effect = {
 			MOS = {
 				add_ideas = RCW_russian_civil_war
+				country_event = {
+					id = naz-bol.3
+					days = 34
+				}
 			}
 		}
 	}
@@ -147,10 +148,6 @@ country_event = {
 		MOS = {
 			controls_state = 219
 		}
-	}
-	mean_time_to_happen = {
-		months = 1
-		days = 4
 	}
     option = {
         name = naz-bol.3.a
@@ -213,6 +210,10 @@ country_event = {
 		hidden_effect = {
 			IRK = {
 				add_ideas = RCW_russian_civil_war
+				country_event = {
+					id = naz-bol.4
+					days = 7
+				}
 			}
 		}
 	}
@@ -222,12 +223,7 @@ country_event = {
     title = naz-bol.4.t
     desc = naz-bol.4.d
 	fire_only_once = yes
-	trigger = {
-		tag = IRK
-		IRK = {
-			controls_state = 566
-		}
-	}
+	is_triggered_only = yes
     option = {
         name = naz-bol.4.a
 		IRK_aleksandr_dugin = {
