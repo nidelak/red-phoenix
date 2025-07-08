@@ -2,10 +2,6 @@ focus_tree = {
 	id = DON_Petr_Molodidov_tree
 	country = {
 		factor = 0
-		modifier = {
-			add = 1
-			tag = DON
-		}
 	}
 
 	continuous_focus_position = {
